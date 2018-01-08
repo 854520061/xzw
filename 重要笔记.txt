@@ -1,0 +1,19 @@
+1.只有被标签包围的文字才能被长按选中；
+
+2.单页面下的json只能配置window;
+
+3不阻止冒泡用bind，阻止冒泡用catch;
+
+4.event.currentTarget.dataset.postid 和 event.target.dataset.postid:
+	event:为当前这个页面；
+	currentTarget:为触发这个事件的页面元素；  target:为点击的组件；
+	dataset:为所有自定义的属性；
+	postid:为其中一个自定义属性的name；
+
+5.Storage缓存的上线最大不能超过10M；
+
+6.template里图片路径要用绝对路径；
+
+7.页面生命周期：onLoad>onShow>onReady   (页面如果需要渲染UI，必须在onReady里设置)
+
+8.template上不能加样式；
